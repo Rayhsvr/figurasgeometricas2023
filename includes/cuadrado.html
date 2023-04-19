@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuadrado</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/funciones.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Cuadrado</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="/index.html">Inicio</a></li>
+      <li><a href="circulo.html">Círculo</a></li>
+      <li><a href="cuadrado.html">Cuadrado</a></li>
+      <li><a href="rectangulo.html">Rectángulo</a></li>
+      <li><a href="triangulo.html">Triángulo</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <form>
+        <label for="lado-input">Lado del cuadrado:</label>
+        <input type="number" id="lado-input" name="lado" max="99999" required>
+        <input type="button" value="Calcular" onclick="cuadrado()">
+        <input type="reset" value="Limpiar">
+      </form>
+      
+      <div class="resultado" id="cuadrado-resultado"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Área del Cuadrado. Todos los derechos reservados.</p>
+      </footer>
+</body>
+</html>

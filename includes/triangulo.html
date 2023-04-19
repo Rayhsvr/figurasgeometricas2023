@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Triángulo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/funciones.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Triángulo</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="/index.html">Inicio</a></li>
+      <li><a href="circulo.html">Círculo</a></li>
+      <li><a href="cuadrado.html">Cuadrado</a></li>
+      <li><a href="rectangulo.html">Rectángulo</a></li>
+      <li><a href="triangulo.html">Triángulo</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <form>
+        <label for="base-input">Base del triángulo:</label>
+        <input type="number" id="base-input" name="base" max="99999" required>
+        <label for="altura-input">Altura del triángulo:</label>
+        <input type="number" id="altura-input" name="altura" max="99999" required>
+        <label for="lado1-input">Lado 1 del triángulo:</label>
+        <input type="number" id="lado1-input" name="lado1" max="99999" required>
+        <label for="lado2-input">Lado 2 del triángulo:</label>
+        <input type="number" id="lado2-input" name="lado2" max="99999" required>
+        <input type="button" value="Calcular" onclick="triangulo()">
+        <input type="reset" value="Limpiar">
+      </form>
+      
+      <div class="resultado" id="triangulo-resultado"></div>
+      
+      
+    </main>
+    <footer>
+        <p>&copy; 2023 Área del Triángulo. Todos los derechos reservados.</p>
+      </footer>
+</body>
+</html>

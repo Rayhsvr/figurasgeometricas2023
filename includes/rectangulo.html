@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rectángulo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/funciones.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Rectángulo</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="/index.html">Inicio</a></li>
+      <li><a href="circulo.html">Círculo</a></li>
+      <li><a href="cuadrado.html">Cuadrado</a></li>
+      <li><a href="rectangulo.html">Rectángulo</a></li>
+      <li><a href="triangulo.html">Triángulo</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <form>
+        <label for="base-input">Base del rectángulo:</label>
+        <input type="number" id="base-input" name="base" max="99999" required>
+        <label for="altura-input">Altura del rectángulo:</label>
+        <input type="number" id="altura-input" name="altura" max="99999" required>
+        <input type="button" value="Calcular" onclick="rectangulo()">
+        <input type="reset" value="Limpiar">
+      </form>
+      
+      <div class="resultado" id="rectangulo-resultado"></div>
+      
+    </main>
+    <footer>
+        <p>&copy; 2023 Área del Rectángulo. Todos los derechos reservados.</p>
+      </footer>
+</body>
+</html>
